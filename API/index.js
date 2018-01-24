@@ -1,7 +1,8 @@
-const code = require('./code');
+//const code = require('./code');
+const github = require('./github');
 const convert = require('koa-convert');
 
-const list = [code];
+const list = [github];
 
 const fn = function (app) {
   //CQRS, refer to npm install koa-cors
